@@ -1,0 +1,33 @@
+ <div class = "searchLogo">
+             <img src = "images/searchLogo.jpeg">
+         </div>
+
+         <div class="chromeLogo">
+             <img src = "chromeicon.png" height = "30px" >
+         </div>
+
+         <div class = "vscLogo">
+             <img src = "images/mscLogo.jpeg">
+         </div>
+         
+         <div calss = "fileLogo">
+             <img src = "images/FileExplorer.jpeg">
+         </div>
+
+          <div clas = "searchWin">
+        <img src = "images/SearchWin.jpeg" alt = "">
+    </div>
+
+
+         .searchWin{
+    position: absolute; 
+    bottom: -655px;
+    width: 100%;
+    text-align: center;
+    transition: all 0.3s ease-in; 
+}
+
+
+
+
+<div class = ""><img src="images/widgetsButton.png" height = "20%"></div>
