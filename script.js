@@ -31,13 +31,33 @@ let tikwin = document.getElementsByClassName("tikWin")[0]
 let aboutLogo = document.getElementsByClassName("aboutIcon")[0]
 let aboutWin = document.getElementsByClassName("aboutWin")[0]
 
-
 winLogo.addEventListener("click", ()=>{
     console.log("clicked");
     if(startmenu.style.bottom == "50px"){
         startmenu.style.bottom = "-655px"
     }
     else{ 
+        if(searchwin.style.bottom = "50px"){
+            searchwin.style.bottom = "-655px"
+        }
+        if(edgewin.style.bottom = "50px"){
+            edgewin.style.bottom = "-700px"
+        }
+        if(vscwin.style.bottom = "60px"){
+            vscwin.style.bottom = "-655px"
+        }
+        if(filewin.style.bottom = "55px"){
+            filewin.style.bottom = "-720px"
+        }
+        if(storewin.style.bottom = "55px"){
+            storewin.style.bottom = "-720px"
+        }
+        if(tikwin.style.bottom = "30px"){
+            tikwin.style.bottom = "-790px"
+        }
+        if(aboutWin.style.bottom = "40px"){
+            aboutWin.style.bottom = "-800px"
+        }
         startmenu.style.bottom = "50px"
     }
 })
@@ -46,8 +66,31 @@ searchLogo.addEventListener("click", ()=>{
     console.log("clicked");
     if(searchwin.style.bottom == "50px"){
         searchwin.style.bottom = "-655px"
+        
+
     }
     else{
+        if(startmenu.style.bottom = "50px"){
+            startmenu.style.bottom = "-655px"
+        }
+        if(edgewin.style.bottom = "50px"){
+            edgewin.style.bottom = "-700px"
+        }
+        if(vscwin.style.bottom = "60px"){
+            vscwin.style.bottom = "-655px"
+        }
+        if(filewin.style.bottom = "55px"){
+            filewin.style.bottom = "-720px"
+        }
+        if(storewin.style.bottom = "55px"){
+            storewin.style.bottom = "-720px"
+        }
+        if(tikwin.style.bottom = "30px"){
+            tikwin.style.bottom = "-790px"
+        }
+        if(aboutWin.style.bottom = "40px"){
+            aboutWin.style.bottom = "-800px"
+        }
         searchwin.style.bottom = "50px"
     }
 })
@@ -55,9 +98,30 @@ searchLogo.addEventListener("click", ()=>{
 chromeLogo.addEventListener("click", ()=>{
     console.log("clicked");
     if(edgewin.style.bottom == "50px"){
-        edgewin.style.bottom = "-690px"
+        edgewin.style.bottom = "-700px"
     }
     else{
+        if(startmenu.style.bottom = "50px"){
+            startmenu.style.bottom = "-655px"
+        }
+        if(searchwin.style.bottom = "50px"){
+            searchwin.style.bottom = "-655px"
+        }
+        if(vscwin.style.bottom = "60px"){
+            vscwin.style.bottom = "-655px"
+        }
+        if(filewin.style.bottom = "55px"){
+            filewin.style.bottom = "-720px"
+        }
+        if(storewin.style.bottom = "55px"){
+            storewin.style.bottom = "-720px"
+        }
+        if(tikwin.style.bottom = "30px"){
+            tikwin.style.bottom = "-790px"
+        }
+        if(aboutWin.style.bottom = "40px"){
+            aboutWin.style.bottom = "-800px"
+        }
         edgewin.style.bottom = "50px"
     }
 })
@@ -68,6 +132,27 @@ vscLogo.addEventListener("click", ()=>{
         vscwin.style.bottom = "-655px"
     }
     else{
+        if(startmenu.style.bottom = "50px"){
+            startmenu.style.bottom = "-655px"
+        }
+        if(searchwin.style.bottom = "50px"){
+            searchwin.style.bottom = "-655px"
+        }
+        if(edgewin.style.bottom = "50px"){
+            edgewin.style.bottom = "-700px"
+        }
+        if(filewin.style.bottom = "55px"){
+            filewin.style.bottom = "-720px"
+        }
+        if(storewin.style.bottom = "55px"){
+            storewin.style.bottom = "-720px"
+        }
+        if(tikwin.style.bottom = "30px"){
+            tikwin.style.bottom = "-790px"
+        }
+        if(aboutWin.style.bottom = "40px"){
+            aboutWin.style.bottom = "-800px"
+        }
         vscwin.style.bottom = "60px"
     }
 })
@@ -78,6 +163,27 @@ fileLogo.addEventListener("click", ()=>{
         filewin.style.bottom = "-720px"
     }
     else{
+        if(startmenu.style.bottom = "50px"){
+            startmenu.style.bottom = "-655px"
+        }
+        if(searchwin.style.bottom = "50px"){
+            searchwin.style.bottom = "-655px"
+        }
+        if(edgewin.style.bottom = "50px"){
+            edgewin.style.bottom = "-700px"
+        }
+        if(vscwin.style.bottom = "60px"){
+            vscwin.style.bottom = "-655px"
+        }
+        if(storewin.style.bottom = "55px"){
+            storewin.style.bottom = "-720px"
+        }
+        if(tikwin.style.bottom = "30px"){
+            tikwin.style.bottom = "-790px"
+        }
+        if(aboutWin.style.bottom = "40px"){
+            aboutWin.style.bottom = "-800px"
+        }
         filewin.style.bottom = "55px"
     }
 })
@@ -88,6 +194,27 @@ storeLogo.addEventListener("click", ()=>{
         storewin.style.bottom = "-720px"
     }
     else{
+        if(startmenu.style.bottom = "50px"){
+            startmenu.style.bottom = "-655px"
+        }
+        if(searchwin.style.bottom = "50px"){
+            searchwin.style.bottom = "-655px"
+        }
+        if(edgewin.style.bottom = "50px"){
+            edgewin.style.bottom = "-700px"
+        }
+        if(vscwin.style.bottom = "60px"){
+            vscwin.style.bottom = "-655px"
+        }
+        if(tikwin.style.bottom = "30px"){
+            tikwin.style.bottom = "-790px"
+        }
+        if(aboutWin.style.bottom = "40px"){
+            aboutWin.style.bottom = "-800px"
+        }
+        if(filewin.style.bottom = "55px"){
+            filewin.style.bottom = "-720px"
+        }
         storewin.style.bottom = "55px"
     }
 })
@@ -128,6 +255,28 @@ tikLogo.addEventListener("click",()=>{
         tikwin.style.bottom = "-790px";
     }
     else{
+        if(startmenu.style.bottom = "50px"){
+            startmenu.style.bottom = "-655px"
+        }
+        if(searchwin.style.bottom = "50px"){
+            searchwin.style.bottom = "-655px"
+        }
+        if(edgewin.style.bottom = "50px"){
+            edgewin.style.bottom = "-700px"
+        }
+        if(vscwin.style.bottom = "60px"){
+            vscwin.style.bottom = "-655px"
+        }
+        if(storewin.style.bottom = "55px"){
+            storewin.style.bottom = "-720px"
+        }
+        if(aboutWin.style.bottom = "40px"){
+            aboutWin.style.bottom = "-800px"
+        }
+        if(filewin.style.bottom = "55px"){
+            filewin.style.bottom = "-720px"
+        }
+ 
         tikwin.style.bottom = "30px";
     }
 })
@@ -138,6 +287,27 @@ aboutLogo.addEventListener("click",()=>{
         aboutWin.style.bottom = "-800px";
     }
     else{
+        if(startmenu.style.bottom = "50px"){
+            startmenu.style.bottom = "-655px"
+        }
+        if(searchwin.style.bottom = "50px"){
+            searchwin.style.bottom = "-655px"
+        }
+        if(edgewin.style.bottom = "50px"){
+            edgewin.style.bottom = "-700px"
+        }
+        if(vscwin.style.bottom = "60px"){
+            vscwin.style.bottom = "-655px"
+        }
+        if(storewin.style.bottom = "55px"){
+            storewin.style.bottom = "-720px"
+        }
+        if(filewin.style.bottom = "55px"){
+            filewin.style.bottom = "-720px"
+        }
+        if(tikwin.style.bottom =="30px"){
+            tikwin.style.bottom = "-790px";
+        }
         aboutWin.style.bottom = "40px";
     }
 })
